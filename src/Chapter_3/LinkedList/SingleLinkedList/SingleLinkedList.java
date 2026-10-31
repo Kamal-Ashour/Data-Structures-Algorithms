@@ -126,6 +126,11 @@ public class SingleLinkedList<T> {
         System.out.println("Deleting from end...");
         NameList.DeleteFromEnd();
         NameList.display();
+
+        System.out.println("------Clear-------");
+        NameList.clear();
+        NameList.display();
+
     }
 
 }
